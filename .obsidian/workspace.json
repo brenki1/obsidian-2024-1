@@ -11,8 +11,12 @@
             "id": "60a182496d25878a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AOC2/Aula 7 - MIPS Multi-ciclo.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.50982284545898
+    "width": 244.50982284545898,
+    "collapsed": true
   },
   "right": {
     "id": "42fd97f7417ee444",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AOC2/Aula 7 - MIPS Multi-ciclo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AOC2/Aula 7 - MIPS Multi-ciclo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,14 +125,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AOC2/Aula 7 - MIPS Multi-ciclo.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,16 +149,18 @@
   },
   "active": "60a182496d25878a",
   "lastOpenFiles": [
-    "AOC2/teste.md",
+    "AOC2/Aula 2 - Fundamentos de projeto de Processador.md",
     "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
-    "home/pagioli",
-    "home",
-    "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
-    "Sistemas Operacionais/Gerenciamento de Processos.md",
     "AOC2/Aula 4 - Arquitetura do Conjunto de Instruções ISA.md",
     "AOC2/Aula 3 - Análise de Desempenho.md",
+    "AOC2/Aula 7 - MIPS Multi-ciclo.md",
+    "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
+    "g.md",
+    "AOC2/teste.md",
+    "home/pagioli",
+    "home",
+    "Sistemas Operacionais/Gerenciamento de Processos.md",
     "Sistemas Operacionais/Introdução a SO.md",
-    "AOC2/Aula 2 - Fundamentos de projeto de Processador.md",
     "AOC2/Lei de Amdahl.md",
     "AOC2/Energia dinâmica.md",
     "Datas/Provas 4º Período.md",
