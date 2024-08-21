@@ -38,4 +38,22 @@ Imagine o problema caso incluíssemos um multiplicador, que aumentaria o tempo d
 - Não cada instrução
 - CPI > 1
 **Menor período
-- O ciclo de relógio é restrito pelo passo mais longo, não pela instru
+- O ciclo de relógio é restrito pelo passo mais longo, não pela instrução mais longa
+- Instruções simples levam menos ciclos
+**Maior desempenho no final
+**Versátil (pode ser mais facilmente estendido com outras instruções)
+
+
+### Quão rápida a frequência pode ser?
+
+Depende do que o precisa ser feito por ciclo de relógio
+
+##### Pode fazer: várias operações "baratas" por ciclo
+- Portas simples (AND, OR, ...);
+- Registradores simples (PC);
+- Extensão de sinal, deslocamento, multiplexador.
+
+#### Adicionalmente: um módulo "caro"
+- Operações do ULA;
+- Acesso ao banco de registradores (duas leituras ou uma escrita);
+- Acesso à memória (leitura ou escrita).
