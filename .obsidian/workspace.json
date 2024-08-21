@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
+                "file": "AOC2/teste.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
+                "file": "AOC2/teste.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
+                "file": "AOC2/teste.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 1 - Introdução.md"
+                "file": "AOC2/teste.md"
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,10 +147,11 @@
   },
   "active": "60a182496d25878a",
   "lastOpenFiles": [
+    "AOC2/teste.md",
+    "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
     "home/pagioli",
     "home",
     "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
-    "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
     "Sistemas Operacionais/Gerenciamento de Processos.md",
     "AOC2/Aula 4 - Arquitetura do Conjunto de Instruções ISA.md",
     "AOC2/Aula 3 - Análise de Desempenho.md",
