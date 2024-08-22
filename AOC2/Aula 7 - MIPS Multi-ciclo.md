@@ -41,6 +41,7 @@ Imagine o problema caso incluíssemos um multiplicador, que aumentaria o tempo d
 - O ciclo de relógio é restrito pelo passo mais longo, não pela instrução mais longa
 - Instruções simples levam menos ciclos
 **Maior desempenho no final
+
 **Versátil (pode ser mais facilmente estendido com outras instruções)
 
 
