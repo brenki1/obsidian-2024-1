@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,6 +140,7 @@
   },
   "active": "60a182496d25878a",
   "lastOpenFiles": [
+    "Sistemas Operacionais/Threads.md",
     "AOC2/teste.md",
     "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
     "home/pagioli",
