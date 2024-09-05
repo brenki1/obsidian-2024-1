@@ -4,7 +4,9 @@ Please resolve them and commit them using the commands `Git: Commit all changes`
 [[#Additional Instructions]] available below file list
 
 - Not a file: .gitignore
-- Not a file: .obsidian/graph.json
+- Not a file: .obsidian/plugins/obsidian-git/data.json
+- Not a file: .obsidian/plugins/obsidian-git/main.js
+- Not a file: .obsidian/plugins/obsidian-git/manifest.json
 - Not a file: .obsidian/workspace.json
 
 # Additional Instructions

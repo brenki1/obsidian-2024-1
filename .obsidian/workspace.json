@@ -25,13 +25,25 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/appearance.json",
-                "staged": true
+                "file": ".obsidian/graph.json",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "cbdf933c23d067cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
@@ -163,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca248ce0bee70e84",
+  "active": "cbdf933c23d067cf",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Sistemas Operacionais/Threads.md",
