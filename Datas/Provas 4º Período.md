@@ -1,5 +1,5 @@
 Estatística Computacional
-1. 02/09 40 pontos
+1. 20/09 40 pontos
 2. 08/11 40 pontos
 3. 13/11 Recuperação 100 pontos
 
