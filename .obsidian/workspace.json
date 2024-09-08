@@ -11,39 +11,14 @@
             "id": "60a182496d25878a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas Operacionais/Threads.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca248ce0bee70e84",
-            "type": "leaf",
-            "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/graph.json",
+                "file": "Sistemas Operacionais/Threads.md",
                 "staged": false
               }
             }
-          },
-          {
-            "id": "cbdf933c23d067cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,25 +141,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbdf933c23d067cf",
+  "active": "60a182496d25878a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
     "Sistemas Operacionais/Threads.md",
+    "conflict-files-obsidian-git.md",
     "AOC2/Aula 7 - MIPS Multi-ciclo.md",
     "AOC2/teste.md",
     "Sistemas de Bancos de Dados/Aula 1 - Introdução.md",
     "home/pagioli",
     "home",
-    "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
     "Sistemas Operacionais/Gerenciamento de Processos.md",
     "AOC2/Aula 4 - Arquitetura do Conjunto de Instruções ISA.md",
     "AOC2/Aula 3 - Análise de Desempenho.md",
