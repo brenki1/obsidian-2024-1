@@ -25,3 +25,6 @@
 	- se a quantidade foi indeterminada ou variável
 		- então considera-se n
 		- senão considera-se 1
+- Um relacionamento ternário em geral representa informações diferentes das dos três tipos-relacionamento binários
+
+### Tipo-Entidade Fraca
