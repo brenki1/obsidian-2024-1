@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
+                "file": "Sistemas de Bancos de Dados/Aula 4 e 5 Modelo ER Parte 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.50982284545898,
-    "collapsed": true
+    "width": 244.50982284545898
   },
   "right": {
     "id": "42fd97f7417ee444",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
+                "file": "Sistemas de Bancos de Dados/Aula 4 e 5 Modelo ER Parte 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
+                "file": "Sistemas de Bancos de Dados/Aula 4 e 5 Modelo ER Parte 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md"
+                "file": "Sistemas de Bancos de Dados/Aula 4 e 5 Modelo ER Parte 2.md"
               }
             }
           },
@@ -159,6 +158,8 @@
   },
   "active": "60a182496d25878a",
   "lastOpenFiles": [
+    "participação.md",
+    "Sistemas de Bancos de Dados/Aula 4 e 5 Modelo ER Parte 2.md",
     "Sistemas de Bancos de Dados/Aula 2 - Modelo Entidade Relacionamento.md",
     "Sistemas Operacionais/Threads.md",
     "conflict-files-obsidian-git.md",
