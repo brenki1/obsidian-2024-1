@@ -8,6 +8,7 @@ Sistemas de Bancos de Dados
 2. 17/10
 3. 21/11 recuperação
 4. 25/10 entrega do projeto
+
 Arquitetura e Organização de Computadores 2
 1. 16/09 - Teste Teams
 2. 18/09 Prova presencial
