@@ -28,3 +28,16 @@
 - Um relacionamento ternário em geral representa informações diferentes das dos três tipos-relacionamento binários
 
 ### Tipo-Entidade Fraca
+- Entidades de um tipo-entidade fraca:
+	- não podem ser distinguíveis porque a combinação dos valores de seus atributos pode ser idêntica
+	- são identificadas através da relação que possuem com entidades pertencentes a tipos-entidade forte
+- Representa dependência de existência
+	- um tipo-entidade fraca sempre tem uma restrição de participação total com respeito ao relacionamento identificador
+- ###### Dependência de Existência:
+	- Se uma entidade _x_ depende da existência de uma entidade _y_, então:
+		- _x_: entidade subordinada
+		- _y_: entidade dominante
+	- Se _y_ for removida então _x_ também deve ser removida
+	- Exemplos:
+		- empregado e dependente
+		- conta e transações
