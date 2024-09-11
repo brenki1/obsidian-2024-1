@@ -41,3 +41,23 @@
 	- Exemplos:
 		- empregado e dependente
 		- conta e transações
+- Entidade forte - tem chave primária
+- Entidade fraca - possui somente uma **chave parcial**
+- Chave primária de uma entidade fraca:
+	- chave primária da entidade forte correspondente + chave parcial da entidade fraca
+
+### Projeto Lógico de BD
+- Identificar tipos-entidade e atributos
+	- tipos-entidade possuem informações descritivas, atributos não
+	- atributos devem ser relacionados às entidades que eles descrevem
+- Identificar chaves primárias
+- Identificar tipos-relacionamento e seus atributos
+	- determinar o grau dos tipos-relacionamento
+		- definir tipos-relacionamento ternários cuidadosamente
+- Identificar as restrições que se aplicam sobre cada tipo-relacionamento
+	- cardinalidade
+	- participação
+- Caso necessário, definir os papéis
+- Identificar tipo-entidade forte e tipo-entidade fraca
+- Verificar os requisitos de operações
+	- se eles se referirem a dados que não estão modelados, repetir os passos anteriores.
