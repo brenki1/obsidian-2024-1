@@ -37,4 +37,15 @@
 
 ### Chaves dos Tipo-Entidade
 - Restrição de chave do ME-R: todos os tipos-entidade devem ter uma chave única
-	- resri
+	- Restrição relaxada para o MER-X
+		- subclasses não precisam ter chave explicitamente definida
+
+### Restrições
+- Especialização definida pelo atributo
+	- as subclasses que participam da hierarquia são determinadas por uma condição baseada em algum atributo da superclasse
+	- exemplo: atributo _tipo_empregado
+	- denominação:
+		- subclasses definidas por predicado (ou definidas por condição)
+- Especialização definida pelo usuário
+	- o membro da subclasse é determinado pelos usuários na operação que adicionar uma entidade à subclasse
+		- um membro é especificado individualmente para cada entidade pelo usuário
