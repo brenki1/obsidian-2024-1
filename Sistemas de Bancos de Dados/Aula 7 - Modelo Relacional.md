@@ -40,4 +40,12 @@
 	- definição do tipo de dado ou formato
 - Aluno (==nmat==, nome, telefone, celular, idade)
 	- Definição lógica
-		1. Números de matrícula
+		1. Números de matrícula: conjunto de dígitos válidos para matrícula de alunos
+		2. Números de telefone: conjunto de números de telefone válido no Brasil
+		3. Nomes de aluno: conjunto de todos os nomes possíveis para pessoas
+		4. Idade: conjunto de idades possíveis para alunos
+	- Definição do tipo de dado ou formato
+		1. Números de matrícula: inteiro com 8 dígitos
+		2. Números de telefone: inteiro com 10 dígitos
+		3. Nomes de aluno: string de 60 caracteres
+		4. Idade: inteiro entre 15 e 100
