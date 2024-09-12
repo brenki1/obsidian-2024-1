@@ -157,3 +157,7 @@ Aluno (==nmat==, nome, telefone, celular, idade)
 - Pode violar a integridade referencial
 	- quando as tuplas removidas forem referidas por chaves estrangeiras de outras tuplas
 - Soluções: rejeitar a remoção, remover em cascata, modificar valores dos atributos de referência
+### Operação Update
+- altera valores de alguns atributos em tuplas
+- Pode violar as seguintes restrições: domínio, unicidade de chave (se atributo é PK), integridade de entidade (se atributo é PK), integridade referencial (se atributo é FK)
+- Soluções: idem anteriores 
