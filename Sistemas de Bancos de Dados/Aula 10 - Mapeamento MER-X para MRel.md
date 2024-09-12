@@ -16,3 +16,16 @@
 6. Mapear todos os atributos multivalorados
 7. Mapear todos os tipos-relacionamento de grau > 2
 8. Mapear todas as ocorrências de abstração de generalização/especialização
+
+### Generalização/Especialização Opção de mapeamento (8A)
+- Modelo entidade relacionamento
+	- E1: superclasse
+	- E2, ..., En: subclasses de E1
+- Modelo relacional
+	- a tabela de E1 possuirá:
+		- os atributos de E1
+		- um atributo discriminador, caso necessário
+    - as tabelas de E2 a En possuirão:
+	    - os seus atributos específicos
+	    - a chave primária de E1
+- Chave primária das subclasses: chave primária de E1
