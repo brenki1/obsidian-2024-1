@@ -49,3 +49,69 @@
 - Especialização definida pelo usuário
 	- o membro da subclasse é determinado pelos usuários na operação que adicionar uma entidade à subclasse
 		- um membro é especificado individualmente para cada entidade pelo usuário
+**Restrição de Disjunção**
+- Subclasses mutuamente exclusivas
+	- uma entidade de uma superclasse deve ser membro, quando muito, de apenas uma subclasse
+- Subclasses que se sobrepõem
+	- uma entidade de uma superclasse pode ser membro de mais do que uma subclasse
+**Restrição de Completude**
+- Total
+	- cada entidade de uma superclasse deve ser membro de alguma subclasse na especialização
+- Parcial
+	- uma entidade de uma superclasse pode não pertencer a qualquer uma das subclasses
+
+Observações
+- Restrições de disjunção e de completude são independentes
+- possibilidades de hierarquias
+	- total disjunta
+	- parcial disjunta
+	- total com sobreposição
+	- parcial com sobreposição
+
+### Generalização/Especialização
+- Uma subclasse pode possuir outras subclasses especificadas a partir dela
+- Herança simples
+	- cada subclasse participa como subclasse em apenas um relacionamento superclasse/subclasse
+- Herança múltipla
+	- cada subclasse pode participar como uma subclasse em mais do que um relacionamento superclasse/subclasse
+
+### Herança Múltipla
+- Regra
+	- se um mesmo atributo ou relacionamento for herdado mais do que uma vez por diferentes relacionamentos superclasse/subclasse então o atributo ou o relacionamento deve ser incluído apenas uma vez na subclasse
+
+### Agregação 
+- É um conceito para a construção de objetos compostos a partir de seus objetos componentes
+	- Ideia: elementos de modelagem podem associar-se, formando outros elementos que representam essa associação
+- Pode assumir diversas formas:
+	- Agregando atributos em Tipos-Entidade e Tipos-Relacionamento
+		- os valores dos atributos compõem a entidade
+	- Agregando Tipos-Entidade e Tipos-Relacionamentos
+		- combinar entidades que estão relacionadas por uma instância de relacionamento em uma entidade agregada de alto nível
+- Tipos-entidades agregados são representados como tipos-entidades comuns
+- Engloba
+	- dois tipos-entidades e um tipo-relacionamento
+- Situações que indicam a necessidade de agregação:
+	1. Quando é necessário identificar cada relacionamento (o relacionamento tem chave)
+	2. Quando é necessário mais de um relacionamento envolvendo as mesmas entidades
+	3. Quando existe a necessidade de associar dois relacionamentos
+
+### Projeto Lógico de BD
+- Classificar tipos-entidades e atributos
+	- tipos-entidade possuem informações descritivas, atributos não.
+	- atributos devem ser mantidos de forma atômica
+	- atributos devem ser relacionados às entidades que eles descrevem
+- Identificar chaves primárias
+- Identificar tipos-relacionamento e seus atributos
+	- determinar o grau dos tipos-relacionamentos
+		- definir tipos-relacionamento ternários cuidadosamente
+	- identificar as restrições que se aplicam sobre cada tipo-relacionamento
+		- cardinalidade
+		- participação
+	- Caso necessário, definir os papéis]
+- Identificar tipo-entidade forte e tipo-entidade fraca
+- Verificar os requisitos de operações 
+	- se eles se referirem a dados que não estão modelados, repetir os passos anteriores
+- Modelar hierarquias de generalização
+	- identificar atributos e relacionamentos comuns
+	- determinar as restrições de disjunção e completude
+- Modelar agregações 

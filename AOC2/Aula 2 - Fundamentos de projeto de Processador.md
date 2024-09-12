@@ -1,4 +1,4 @@
-#### Tendências recentes do Microprocessador:
+ #### Tendências recentes do Microprocessador:
 - Frequências base tendem a se estabilizar;
 - Processamento paralelo tende a aumentar;
 - Transistores aumentam (Lei de Moore);
