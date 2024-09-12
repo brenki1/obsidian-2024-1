@@ -39,3 +39,17 @@
 ### Generalização/Especialização Opção de mapeamento (8B)
 - Modelo entidade relacionamento
 	- E1: superclasse
+	- E2, ..., En: subclasses de E1
+- Modelo relacional
+	- as tabelas de E2 a En possuirão:
+		- os seus atributos específicos
+		- os atributos de E1
+		- a chave primária de E1
+- Chave primária das subclasses
+	- chave primária de E1
+- Essa opção funciona
+	- apenas para participação total
+	- é mais adequada para disjunção, mas suporta sobreposição
+- Interessante quando
+	- é frequente o acesso a cada entidade em sua totalidade, incluindo-se seus dados genéricos e específicos
+		- esta alternativa, comparada com as alternativas que mantêm uma relação para a superclasse, permite evitar uma operação de junção na consulta
