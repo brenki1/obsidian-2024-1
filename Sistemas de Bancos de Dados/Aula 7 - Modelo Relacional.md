@@ -23,4 +23,21 @@
 - Relação esquema R:
 	- utilizada para descrever uma relação
 	- denotada por R(A1, A2,..., An)
-	- 
+	- formada por
+		- um nome de relação R
+		- uma lista de atributos A1, A2, ..., An
+	- para cada atributo Ai (1 <= i <= n)
+		- dom(Ai) : domínio de Ai
+		- domínio: conjunto de valores atômicos
+	- caracteriza a intenção do BD
+- Exemplos de domínios para
+	- Aluno (==nmat==, nome, telefone, celular, idade)
+		- Números de telefone
+		- Nomes de aluno
+		- Idade
+- Um método comum para especificar o domínio compreende
+	- definição lógica
+	- definição do tipo de dado ou formato
+- Aluno (==nmat==, nome, telefone, celular, idade)
+	- Definição lógica
+		1. Números de matrícula
