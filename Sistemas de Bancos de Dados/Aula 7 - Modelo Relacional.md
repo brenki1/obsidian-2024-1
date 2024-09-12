@@ -119,4 +119,41 @@ Aluno (==nmat==, nome, telefone, celular, idade)
 
 ### Restrições sobre uma Relação - Chave Primária
 - Resumindo:
-	- chave primária para u
+	- chave primária para um esquema de relação R satisfaz duas restrições
+		- duas tuplas distintas não pode ter valores idênticos para os atributos da chave
+		- ela é uma superchave mínima
+
+### Definições
+- Esquema de banco de dados S
+	- conjunto de relações esquema S = {R1 , R2 , ..., Rm}
+	- conjunto de restrições de integridade IC
+- Estado do banco de dados DB
+	- conjunto de estados da relação DB = {r1 , r2 , ..., rm}, onde cada ri é um estado de Ri
+	- os estados de ri devem satisfazer às restrições de integridade especificadas em IC
+
+### Restrições entre duas Relações
+- Integridade referencial
+	- mantém a consistência entre as tuplas nas duas relações
+	- declara que uma tupla em uma relação, a qual faz referência a uma outra relação, deve se referir a uma tupla existente nessa segunda relação
+	- definida entre a chave estrangeira (FK) de uma relação esquema R1 e a chave primária (PK) de um relação esquema R2
+- FK de R1 é chave estrangeira de R1 , que faz referência à PK de R2 , se:
+	- os atributos de FK têm os mesmos domínios que os atributos de PK
+	- um valor de FK em uma tupla t1 do estado corrente de r1 (R1)
+		- ocorre como um valor de PK para alguma tupla t2no estado corrente r2 (R2 ) ou tem o valor null
+
+### Restrições _versus_ Operações
+- Operações de modificação
+	- insert
+	- delete
+	- update (ou modify)
+	- Quando estas operações são aplicadas, as restrições de integridade especificadas no esquema do banco de dados relacional não devem ser violadas
+
+### Operação Insert
+- Característica
+	- fornece uma lista de valores de atributos para uma nova tupla t, que é inserida em um relaçao R
+- Pode violar as seguintes restrições: domínio, unicidade de chave, integridade de entidade, integridade referencial
+### Operação Delete
+- Remove uma ou mais tuplas
+- Pode violar a integridade referencial
+	- quando as tuplas removidas forem referidas por chaves estrangeiras de outras tuplas
+- Soluções: rejeitar a remoção, remover em cascata, modificar valores dos atributos de referência
