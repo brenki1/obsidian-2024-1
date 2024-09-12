@@ -29,3 +29,13 @@
 	    - os seus atributos específicos
 	    - a chave primária de E1
 - Chave primária das subclasses: chave primária de E1
+- Essa opção funciona para qualquer especialização
+	- Total ou Parcial
+	- Disjuntas ou Sobrepostas
+- Interessante quando
+	- existem poucas subclasses, cada uma com diversos atributos específicos
+	- uma consulta tipicamente se concentra em uma ou poucas subclasses de cada vez
+
+### Generalização/Especialização Opção de mapeamento (8B)
+- Modelo entidade relacionamento
+	- E1: superclasse
