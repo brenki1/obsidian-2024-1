@@ -34,4 +34,46 @@
 	- Opção da relação unificada (apropriada quando ambas participações são totais)
 	- Opção de referência cruzada (ou relação relacionamento)
 
-### Passo 4
+### Passo 4: Tipo-Relacionamento (1:n)
+- Modelo entidade relacionamento
+	- tipo-relacionamento binário: E1 relacionando-se com E2
+	- cardinalidade: 1:n
+- Modelo relacional: repete-se a chave primária de E1 em E2
+	- a tabela de E1 possuirá apenas os atributos de E1
+	- a tabela de E2 possuirá
+		- os atributos de E2
+		- a chave primária de E1 (chave estrangeira)
+		- os atributos do tipo-relacionamento
+
+### Passo 5: Tipo-Relacionamento (m:n)
+- Modelo entidade relacionamento
+	- tipo-relacionamento binário: E1 relacionando-se com E2
+	- cardinalidade: m:n
+- Modelo relacional
+	- a tabela de E1 possuirá apenas os atributos de E1
+	- a tabela de E2 possuirá apenas os atributos de E2
+	- a tabela R conterá:
+		- a chave primária de E1 (chave estrangeira)
+		- a chave primária de E2 (chave estrangeira)
+		- os atributos do tipo relacionamento
+- Chave primária de R
+	- chave primária de E1 + chave primária de E2
+
+### Passo 6: atributos multivalorados
+- Duas opções de mapeamento:
+	1. Para cada atributo multivalorado cria-se uma nova relação
+	2. Para cada valor possível do atributo multivalorado cria-se um atributo monovalorado na mesma relação
+
+### Passo 7: Tipo-relacionamento Ternário
+- Modelo entidade relacionamento
+	- E1 relacionando-se com E2 e com E3
+	- cardinalidade m:n:p
+- Modelo relacional
+	- a tabela de E1 possuirá apenas os atributos de E1
+	- a tabela de E2 possuirá apenas os atributos de E2
+	- a tabela de E3 possuirá apenas os atributos de E3
+	- a tabela R (relativa ao tipo-relacionamento) conterá:
+		- a chave primária de E1
+		- a chave primária de E2
+		- a chave primária de E3
+		- os atributos do tipo-relacionamento
