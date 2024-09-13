@@ -106,4 +106,14 @@
 	- uma mesma instância do tipo-relacionamento gerador resulta em mais de uma entidade agregada
 ##### Opção 2:
 - deve ser usada:
-	- quando o tipo-entidade agregação é identificado por um de seus ar
+	- quando o tipo-entidade agregação é identificado por um de seus atributos
+	- em geral o atributo identificador da agregação era identificador do tipo-relacionamento gerador
+
+(também há como usar 1 e 2 juntos)
+
+- Sempre que uma instância do tipo-relacionamento gerador puder resultar em mais de uma entidade agregada
+	- quando puderem ser repassados para a agregação -> não mapear o relacionamento
+	- quando não puderem ser repassados para a agregação -> mapear o relacionamento
+- Dados vistos em um nível mais baixo
+	- atributos do tipo-relacionamento
+	- chaves primárias dos tipos-entidades
