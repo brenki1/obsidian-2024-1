@@ -53,3 +53,7 @@
 - Interessante quando
 	- é frequente o acesso a cada entidade em sua totalidade, incluindo-se seus dados genéricos e específicos
 		- esta alternativa, comparada com as alternativas que mantêm uma relação para a superclasse, permite evitar uma operação de junção na consulta
+- Observação importante
+	- esta alternativa não é indicada quando:
+		- houver necessidade frequente de acessar informações envolvendo todas as entidades genéricas
+		- houver a possibilidade de existirem especializações não previstas a priori
