@@ -44,6 +44,33 @@
 	- Em alguns domínios, os núcleos mais simples são atraentes.
 	- Redução da movimentação de dados.
 
+### Potência e Energia: uma perspectiva de sistema
+- Como um arquiteto de sistema deve pensar sobre o desempenho, a potência e energia?
+- Qual é a potência máxima que um processador pode exigir?
+	- se um processador tentar obter mais potência do que a fornecida por um sistema de alimentação, em geral o resultado é uma queda de tensão que pode levar a falha do sistema.
+	- Solução: indexação da tensão com a redução da taxa de clock.
+- Qual é o consumo de potência sustentado?
+	- Projeto Térmico de Potência (Thermal Design Power – TDP)
+- Energia e Eficiência Energética:
+	- Potência é energia por unidade de tempo – 1 watt = 1 joule por segundo
+
+### Potência x Energia
+- Qual é a métrica correta para comparar processadores: energia ou potência?
+	- em geral, a energia sempre é uma métrica melhor.
+	- a energia mostra o custo "real" para realizar uma tarefa.
+- Exemplo:
+	- Se um processador A consome 1.2x a potência do processador B, mas finaliza a tarefa em tempo 30% menor, sua energia relativa é 1.2 X 0.7 = 0.84; Portanto, o processador A é melhor, considerando que 1.2x potência poderá ser suportada pelo sistema.
+
+### Energia Dinâmica
+- Para os chips CMOS, o consumo de energia dominante tem ocorrido no chaveamento dos transistores, também chamada de energia dinâmica
+- $$Energia_d = Carga_c \times Voltagem²$$
+	- considerando o pulso de transição lógica de 0->1->0 ou 1->0->1
+- A energia de uma única transição (0 -> 1 ou 1 -> 0), é então:
+	- $$Energia_d = \frac{1}{2}Carga_c \times Voltagem²$$
+- A potência necessária por transistor é somente o produto da energia de uma transição multiplicada pela frequência das transições
+	- $$Potencia_d = \frac{1}{2}Carga_c \times Voltagem² \times FrequenciaChaveamento$$
+
+### A questão do consumo de energia
 
 ### Tendências recentes do microprocessador:
 - Frequências base tendem a se estabilizar;
