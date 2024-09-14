@@ -18,7 +18,31 @@
 ### Tendências na Tecnologia
 - Tecnologia do circuito lógico integrado
 	- a densidade de transistores aumenta em cerca de 35% ao ano e o tamanho do die variando de 10-20% ao ano - mais funcionalidades
-- A velocidade dos transisto
+- A velocidade dos transistores melhora linearmente com o tamanho
+	- equação complexa envolvendo tensões, resistências, capacitâncias, o que pode resultar em aumento das taxas de clock!
+- Aumento da capacidade e densidade de memórias DRAMs semicondutoras e flash semicondutoras.
+- Escala de desempenho de transistores e fios
+	- atrasos em fios não reduzem na mesma escala dos atrasos nos circuitos lógicos.
+- A barreira da potência: não é possível consistentemente operar em frequências altas sem alcançar os limites de potência/térmicos.
+	- Overclocking: Turbo Mode pode rodar em uma taxa maior de clock por um curto intervalo de tempo.
+
+### O que melhora o desempenho?
+- **Nota: sem aumentar a velocidade de clock**
+- Realizar mais trabalho por ciclo de clock
+	- considerando que os transistores são mais rápidos e de maior eficiência energética...
+- Melhorias arquiteturais:
+	- explorar mais paralelismo em um thread, melhorar a previsão dos desvios, melhorar as políticas de cache, melhorar as organizações de memória, explorar mais o paralelismo em nível de threads, etc..
+
+### Qual é o caminho a seguir?
+- Melhorias nas taxas de clock estão diminuindo.
+	- restrições da eficiência energética.
+- É cada vez mais difícil otimizar o desempenho individual de um núcleo de processador (core).
+- Multi-cores: a cada nova geração o chip microprocessador acomodará um número maior de núcleos de processamento.
+- Precisamos de melhores modelos de programação e eficiência na execução de aplicativos multithreaded.
+- Precisamos de uma melhor hierarquia de memória
+- Precisamos de uma maior eficiência energética
+	- Em alguns domínios, os núcleos mais simples são atraentes.
+	- Redução da movimentação de dados.
 
 
 ### Tendências recentes do microprocessador:
