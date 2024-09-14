@@ -71,6 +71,19 @@
 	- $$Potencia_d = \frac{1}{2}Carga_c \times Voltagem² \times FrequenciaChaveamento$$
 
 ### A questão do consumo de energia
+- A capacitância dos transistores e os níveis de tensão (voltagem) estão reduzindo, mas a densidade de transistores está aumentando em taxas muito elevadas; assim, a velocidade de clock não deve ser alterada (kept steady)
+- A potência de fuga está subindo -- é função da quantidade de transistores, corrente de fuga e fonte de tensão (voltagem).
+- O consumo de energia nos processadores de alto desempenho está na faixa de 100-150W.    
+  $$Energy = power \times time = (dynpower + lkgpower) \times time$$
+### Reduzindo Potência e Energia
+- Distribuir a potência, retirar o calor e impedir pontos quentes tem se tornado desafios cada vez mais difíceis
+- Ideia: melhorar a eficiência energética.
+	- desligar o clock de circuitos inativos (reduz a potência de fuga - leakage)
+	- Escalonamento dinâmico de voltagem-frequência
+		- Dinamic Voltage-Frequency Scaling – DVFS
+	- Projetar para o caso típico
+- DFS: Dynamic frequency scaling -- only reduces frequency and dynamic power, but hurts energy
+- DVFS: Dynamic voltage and frequency scaling – can reduce voltage and frequency by (say) 10%; can slow a program by (say) 8%, but reduce dynamic power by 27%, reduce total power by (say) 23%, reduce total energy by 17%
 
 ### Tendências recentes do microprocessador:
 - Frequências base tendem a se estabilizar;
@@ -85,4 +98,25 @@
 - A densidade dos armazenadores secundários melhoram em 100% todo ano, a melhoria de latência é similar à DRAM;
 - O surgimento da tecnologia NVRAM pode servir de ponte entre a tecnologia DRAM e HDDs;
 - Confiabilidade (reliability): transistores menores, operando em baixa tensão e em grande quantidade.
+
+### Confiabilidade e Disponibilidade
+- Os sistemas alternam entre dois estados de serviço em relação a um SLA - Service Level Agreements
+	1. Realização do Serviço (service accomplishment)
+		- o serviço é realizado conforme especificado
+	2. Interrupção do Serviço (service interruption)
+		- O serviço entregue é diferente do acordado (SLA)
+- As transições entre os dois estados são causados por falhas (do status 1 para o 2) ou as restaurações (do status 2 para o 1.)
+- Quantificar essas transições leva as duas principais medidas de dependência:
+	- Confiabilidade do módulo - Reliability measures continuous service accomplishment and is usually expressed as mean time to failure (MTTF)
+	- Disponibilidade do módulo - Availability measures fraction of time that service matches specifications, expressed as MTTF / (MTTF + MTTR)
+
+### Custo
+- O custo é determinado por muitos fatores: volume da produção, curva de aprendizagem, commodities, etc.
+- Um fator determinante e importante: área do chip
+	- Menor área ⟶ mais chips por wafer
+	- Menor área ⟶ um defeito leva-nos a descartar uma pequena área do wafer, i.e., produção cresce.
+		- Roughly speaking, half the area ➔ one-third the cost
+- O mercado de informática funciona como commodity. DRAMs, HDs, monitores, teclados, etc... Todos são padronizados e encontrados similares em qualquer canto e feito por qualquer fabricante. Nos últimos anos, muitos computadores pessoais viraram commodity focado em vender desktop e laptop com sistema microsoft windows.
+- Como todos os vendedores vendem praticamente a mesma coisa, a competição é altíssima, o que diminui as margens de lucro. Fora o fato da demanda ser altíssima.
+- O circuito integrado possui o seu custo relativo ascendente.
 
