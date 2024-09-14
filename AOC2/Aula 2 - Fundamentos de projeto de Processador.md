@@ -15,6 +15,12 @@
 - Portanto, as novas arquiteturas deixaram de focar em paralelismo a nível de instrução (ILP) para focar em paralelismo a nível de thread (TLP) e paralelismo a nível de dados (DLP)
 - Atualmente o ILP é feito implicitamente, de modo transparente ao programador, diferentemente do TLP e DLP, onde o programador necessita explicitar o paralelismo.
 
+### Tendências na Tecnologia
+- Tecnologia do circuito lógico integrado
+	- a densidade de transistores aumenta em cerca de 35% ao ano e o tamanho do die variando de 10-20% ao ano - mais funcionalidades
+- A velocidade dos transisto
+
+
 ### Tendências recentes do microprocessador:
 - Frequências base tendem a se estabilizar;
 - Processamento paralelo tende a aumentar;
