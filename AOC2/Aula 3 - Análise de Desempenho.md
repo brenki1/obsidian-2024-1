@@ -84,3 +84,12 @@ Problema:
 $$ Tempo de CPU = IC \times CPI \times TempoCiclo de Clock$$
 - O tempo de CPU do processador depende igualmente dessas três características. Para melhorar o desempenho devemos:
 	- Aumentar a frequência do clock = diminuir o período do clock.
+	- Reduzir o número de ciclos por instrução (CPI)
+	- Reduzir a quantidade de instruções (IC)
+- É difícil mudar um parâmetro de modo completamente isolado, pois as tecnologias envolvidas na mudança de característica são interdependentes:
+	- Tempo de ciclo de clock ⟶ tecnologia e organização do Hardware
+	- CPI ⟶ organização e arquitetura do conjunto de instruções (ISA)
+	- IC ⟶ ISA e tecnologia do compilador (implementação)
+- O termo CPI utilizado na formula acima é um valor médio de todas as instruções executadas na aplicação.
+- Diferentes instruções podem consumir quantidades diferentes de ciclos para executarem, assim: $$ TempoCPU = (\sum_{i=1}^{n} IC_i \times CPI_i) \times ClockTime$$
+- Onde o índice i representa as diversas classes de instruções e seus respectivos CPIs.
