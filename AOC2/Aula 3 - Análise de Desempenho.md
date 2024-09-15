@@ -44,4 +44,12 @@
 ### Definição de Desempenho
 - Dado duas plataformas X e Y
 	- X é 'n' vezes mais rápida do que Y para uma determinada aplicação se
-	- $$ n = \frac{Tempo_y}{Tempo_x}
+	- $$ n = \frac{Tempo_y}{Tempo_x}$$
+	- Desempenho de "X é n vezes mais rápido do que Y"
+	- $$n = \frac{Tempo_y}{Tempo_x} = \frac{\frac{1}{Desempenho_y}}{\frac{1}{Desempenho_x}} = \frac{Desempenho_x}{Desempenho_y}$$
+
+### Exemplo
+
+Problema:
+
+- M
